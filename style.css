@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    color: #0047AB; /* Blue Title */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4682B4; /* Light Blue Headings */
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.summary {
+    text-align: left;
+    margin-bottom:  0 0 20px 0;
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.left-section {
+    border-right: 4px solid #0047AB; /* Blue Partition Line */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
